@@ -1,0 +1,12 @@
+#ifndef __LED_H
+#define __LED_H
+
+#include "define.h"
+
+#define LED0 PBout(5)
+#define LED1 PEout(5)
+
+void LED_Init(void);
+void LED0TURN();
+void LED1TURN();
+#endif

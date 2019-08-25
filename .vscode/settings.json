@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.env.osx": {
+        "PATH": "/Users/arvin_jin/.platformio/penv/bin:/Users/arvin_jin/.platformio/penv:/Users/arvin_jin/.platformio/packages/tool-jlink:/Users/arvin_jin/.platformio/packages/toolchain-gccarmnoneeabi/bin:/Users/arvin_jin/.platformio/packages/tool-openocd/bin:/opt/local/bin:/opt/local/sbin:/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/usr/local/go/bin:/Applications/Wireshark.app/Contents/MacOS",
+        "PLATFORMIO_CALLER": "vscode"
+    },
+    "files.associations": {
+        "delay.h": "c"
+    }
+}
