@@ -18,13 +18,13 @@ __inline void OSSetPrioRdy(u8 prio){
     OSRdyTbl|=0x01<<prio;
 }
 
-
+//每一位对应一个任务的优先级
 __inline void OSDelPrioRdy(u8 prio)
 {
 	OSRdyTbl&=~(0x01<<prio);
 }
 
-//
+//查找当前就绪表中优先级最高的任务
 __inline void OSGetHighRdy(void)				
 {									
 	u8	OS_NEXT_Prio;	

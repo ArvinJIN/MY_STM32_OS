@@ -14,6 +14,8 @@ typedef volatile uint32_t   vu32;
 typedef volatile uint16_t   vu16;
 typedef volatile uint8_t    vu8;
 
+typedef unsigned int OS_CPU_SR;
+
 #define __IO volatile
 #ifdef __cplusplus
   #define     __I     volatile                /*!< defines 'read only' permissions      */
